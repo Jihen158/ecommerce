@@ -8,10 +8,11 @@ import com.example.ecommerce.repositories.CartRepository;
 import com.example.ecommerce.services.CartService;
 import com.example.ecommerce.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
-
+@Service
 public class CartServiceImpl implements CartService {
 
 
